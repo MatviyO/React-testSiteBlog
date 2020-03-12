@@ -2,13 +2,12 @@ import React from 'react';
 import './App.css';
 import {Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./Components/Header/Header";
 
 function App() {
     return (
         <div>
-
-            <h1>React App</h1>
-            <Button variant="primary"> Button</Button>
+            <Header />
         </div>
     );
 }
