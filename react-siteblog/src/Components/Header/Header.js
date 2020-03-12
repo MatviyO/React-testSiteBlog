@@ -3,6 +3,11 @@ import {Navbar, Nav, FormControl, Form} from "react-bootstrap";
 import logo from './logo192.png'
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Home from "../../Pages/Home/Home";
+import About from "../../Pages/About/About";
+import Contacts from "../../Pages/Contacts/Contacts";
+import Blog from "../../Pages/Blog/Blog";
 
 export default class Header extends Component {
     render() {
@@ -35,6 +40,15 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+
+                <Router>
+                    <Switch>
+                        <Route exact path="/" component={Home}/>
+                        <Route exact path="/about" component={About}/>
+                        <Route exact path="/contacts" component={Contacts}/>
+                        <Route exact path="/blog" component={Blog}/>
+                    </Switch>
+                </Router>
             </>
         )
     }
