@@ -40,7 +40,9 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-
+                <div style={{
+                    marginTop: '50px'
+                }}>
                 <Router>
                     <Switch>
                         <Route exact path="/" component={Home}/>
@@ -49,6 +51,7 @@ export default class Header extends Component {
                         <Route exact path="/blog" component={Blog}/>
                     </Switch>
                 </Router>
+            </div>
             </>
         )
     }
