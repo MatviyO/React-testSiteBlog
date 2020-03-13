@@ -36,7 +36,7 @@ export default class About extends Component {
                             <Tab.Content className="mt-3">
                                 <Tab.Pane eventKey="first">
                                     <img src="https://i.pinimg.com/originals/0e/3c/30/0e3c30413716a3d66cb30735e7e10d75.png" alt=""/>
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ducimus earum hic inventore neque quisquam sint. Consectetur, cupiditate delectus eum ipsum odio perferendis quia sapiente.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ducimus earum hic inventore neque quisquam sint. Consectetur, cupiditate delectus eum ipsum odio perferendis quia sapiente.</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
                                     <img src="https://static2.clutch.co/s3fs-public/software-development-team-1.jpg" alt=""/>
